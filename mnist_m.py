@@ -2,7 +2,7 @@ import os
 import warnings
 
 import torch
-from PIL.Image import Image
+from PIL import Image
 from torchvision.datasets import VisionDataset
 from torchvision.datasets.utils import download_and_extract_archive
 
